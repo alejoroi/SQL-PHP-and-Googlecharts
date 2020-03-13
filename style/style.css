@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+/* BACKIMAGE***************************************/
+#imageini {
+  /* background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)),url('cabezote1920.jpg'); */
+  background-image: url(../images/home.jpg);
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#imagecontact {
+  /* background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)),url('cabezote1920.jpg'); */
+  background-image: url(../images/contact.jpg);
+  background-position: center top;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 50%;
+}
+
+#imagelogo {
+  margin-left: 0;
+  margin-right: auto;
+  width: 70px;
+  height: 70px;
+}
+
+#mapimage{
+  width: 100%;
+
+}
+
+#myTitles{
+  text-align:center;
+  color: #210454;
+  font-family: "Montserrat", sans-serif;
+}
+
+#myTitlesC{
+  text-align:center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+}
+
+@media screen and (max-width: 600px) {
+  #mapimage{
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* COLUMNS HEAD*****************************/
+
+.columnhead {
+  flex: 20%;
+  max-width: 40%;
+  padding: 5px 30px;
+  /* background-color: #e28926; */
+  opacity: 0.8;
+  text-align: center;
+}
+
+#textcolumn {
+  padding: 0px 20px;
+  font-size: 40pt;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+#texttitle {
+  padding: 0px 20px;
+  font-size: 55pt;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 600px) {
+  .columnhead {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* NAVIGATION BAR*****************************/
+nav li {
+  display: inline-block;
+  background-color: #1f99cc;
+  font-family: Verdana;
+  padding: 0.5em;
+}
+
+nav li a {
+  /* background-color:#339900; */
+  color: #fff;
+  padding: 0.2em;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: #e28926;
+  padding: 0.5em 0.2em 0.5em 0.2em;
+}
+
+.topnav {
+  background-color: #1f99cc;
+  overflow: hidden;
+}
+
+
+/* FOOTER*****************************/
+
+footer {
+  background-color: #1f99cc;
+  color: #FFF;
+  padding: 15px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* CONTACT FORM*****************************/
+
+#container {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+  display: flex;
+  justify-content: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  
+  color: #fff;
+}
+input[type="text"] {
+  /* width: 71%; */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+
+}
+input[type="submit"] {
+  background-color: #fed802;
+  color: #210454;
+  padding: 20px 130px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+
+
+main h2 {
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* CHECKBOX*****************************/
+div.box {
+  width: 350px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid #CCCCCC;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* CHARTS *******************************/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 10px;
+
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color:  #fff;
+  text-align: left;
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+      grid-template-columns: 100% 100%
+  }
+}
