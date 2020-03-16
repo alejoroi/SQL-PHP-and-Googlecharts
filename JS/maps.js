@@ -1,3 +1,4 @@
+//comment 
 window.onload = () => { 
 
   var url_api = '/projects/Project%20PHP/api/countries.php';
