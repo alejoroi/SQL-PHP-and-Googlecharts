@@ -1,1 +1,1 @@
-# php-googlecharts
+# SQL, PHP and Googlecharts
